@@ -1,0 +1,18 @@
+{
+  "id": "index.html",
+  "dependencies": [
+    {
+      "name": "./index.js",
+      "dynamic": true,
+      "resolved": "/home/tonio/git/pomodoro-react/index.js",
+      "parent": "/home/tonio/git/pomodoro-react/index.html"
+    }
+  ],
+  "generated": {
+    "html": "<html>\n  <body>\n    <script src=\"/168726dbe96b3ce427e7fedce31bb0bc.js\"></script>\n  </body>\n</html>"
+  },
+  "sourceMaps": null,
+  "error": null,
+  "hash": "79212c9d7a5e7f45c1d8271bccda18d4",
+  "cacheData": {}
+}
