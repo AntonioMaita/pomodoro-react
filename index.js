@@ -1,3 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-ReactDOM.render(<h1>{"Hello world!"}</h1>, document.querySelector("#root"));
+import "./style.scss";
+import Chronos from "./content/chronos";
+
+ReactDOM.render(<Chronos />, document.querySelector("#root"));
