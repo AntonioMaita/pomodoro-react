@@ -2,6 +2,12 @@
   "id": "index.html",
   "dependencies": [
     {
+      "name": "./style.css",
+      "dynamic": true,
+      "resolved": "/home/tonio/git/pomodoro-react/style.css",
+      "parent": "/home/tonio/git/pomodoro-react/index.html"
+    },
+    {
       "name": "./index.js",
       "dynamic": true,
       "resolved": "/home/tonio/git/pomodoro-react/index.js",
@@ -9,10 +15,10 @@
     }
   ],
   "generated": {
-    "html": "<html>\n  <body>\n    <script src=\"/168726dbe96b3ce427e7fedce31bb0bc.js\"></script>\n  </body>\n</html>"
+    "html": "<html>\n    <head>\n       <link rel=\"stylesheet\" href=\"/da232d78aa810382f2dcdceae308ff8e.css\">\n       <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n       <script src=\"https://unpkg.com/react@16/umd/react.production.min.js\"></script>\n        <script src=\"https://unpkg.com/react-dom@16/umd/react-dom.production.min.js\"></script>\n    </head>\n  <body>\n    \n    <div id=\"root\"></div>\n    <script src=\"/168726dbe96b3ce427e7fedce31bb0bc.js\"></script>\n  </body>\n</html>"
   },
   "sourceMaps": null,
   "error": null,
-  "hash": "79212c9d7a5e7f45c1d8271bccda18d4",
+  "hash": "9734dbe2ba057e302b64bddf2c528f1d",
   "cacheData": {}
 }
