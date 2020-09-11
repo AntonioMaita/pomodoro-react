@@ -15,7 +15,9 @@ body{
   
   width:80%;
   margin:0 auto;
-  background-color: $turquoise1;
+  background-image: url('/img/doctorwho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 
 
 h1{
@@ -141,7 +143,7 @@ button{
   background-color:#CAFFB9;
 
   svg{
-    fill:#66A182;
+    fill:#7166a1;
   }
   &:hover{
     background-color: $pastel;
@@ -157,6 +159,7 @@ button{
   }
 
   .section-timer{
+    padding-top: 250px;
     @keyframes sectiontimer {
       0%{
         transform: translatey(-400px);
@@ -174,6 +177,7 @@ animation-duration: 1s;
 
     margin:0 auto;
     h3{
+      font-size: 30px;
       text-align: center;
       margin:0;
       font-family: "Ibm";

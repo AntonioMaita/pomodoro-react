@@ -16,7 +16,7 @@ function BreakTime(props) {
     }
     return (
         <section className={"section-break-time"}>
-            <h2>{"Break time"}</h2>
+            <h2>{"Break time Minutes"}</h2>
             <div className={"break-time"}>
                 <button
                     type={"button"}

@@ -1,7 +1,9 @@
 body {
   width: 80%;
   margin: 0 auto;
-  background-color: #66A182;
+  background-image: url("/img/doctorwho.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body h1 {
@@ -206,7 +208,7 @@ body button {
 }
 
 body button svg {
-  fill: #66A182;
+  fill: #7166a1;
 }
 
 body button:hover {
@@ -222,6 +224,7 @@ body button:disabled {
 }
 
 body .section-timer {
+  padding-top: 250px;
   -webkit-animation-name: sectiontimer;
           animation-name: sectiontimer;
   -webkit-animation-duration: 1s;
@@ -262,6 +265,7 @@ body .section-timer {
 }
 
 body .section-timer h3 {
+  font-size: 30px;
   text-align: center;
   margin: 0;
   font-family: "Ibm";
@@ -318,3 +322,4 @@ body .section-timer .settings-timer .play-timer svg {
   -webkit-transform: translateX(2px);
           transform: translateX(2px);
 }
+/*# sourceMappingURL=style.css.map */

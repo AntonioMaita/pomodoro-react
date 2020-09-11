@@ -17,7 +17,7 @@ export default function PomodoroTime(props) {
 
     return (
         <section className={"section-pomodoro-time"}>
-            <h2>{"Pomodoro time"}</h2>
+            <h2>{"Pomodoro time Minutes"}</h2>
             <div className={"pomodoro-time"}>
                 <button
                     type={"button"}
