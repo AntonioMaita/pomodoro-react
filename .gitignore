@@ -2,3 +2,5 @@
 /dist
 /.cache
 .eslintcache
+# Local Netlify folder
+.netlify
