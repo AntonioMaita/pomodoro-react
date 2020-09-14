@@ -22,7 +22,7 @@ body{
 
 h1{
   font-size:48px;
-  font-family: 'Lobster', cursive;
+  
   text-align: center;
   letter-spacing: 0.08em;
   margin:0;
@@ -72,7 +72,7 @@ h1{
   animation-duration: 1s;
   h2{
     text-align: center;
-    font-family: 'Ibm', cursive;
+    
     color:$pink;
   }
   .break-time{
@@ -85,7 +85,7 @@ h1{
       text-align: center;
       color:$pink;
       font-size: 18px;
-      font-family: "Lobster";
+      
     }
    
 }
@@ -111,7 +111,7 @@ transition: ease-in;
 
   h2{
     text-align: center;
-      font-family: 'Ibm', cursive;
+      
       color:$pink;
   }
   .pomodoro-time{
@@ -124,7 +124,7 @@ transition: ease-in;
       text-align: center;
       color:$pink;
       font-size: 18px;
-      font-family: "Lobster";
+      
     }
   }
 }
@@ -180,7 +180,7 @@ animation-duration: 1s;
       font-size: 30px;
       text-align: center;
       margin:0;
-      font-family: "Ibm";
+      
       color:$pink;
     }
    
@@ -195,7 +195,7 @@ animation-duration: 1s;
   border-radius: 50%;
   font-size: 80px;
   text-align: center;
-  font-family: 'Lobster', cursive;
+  
   display: flex;
   justify-content: center;
   align-items: center;

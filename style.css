@@ -8,7 +8,6 @@ body {
 
 body h1 {
   font-size: 48px;
-  font-family: 'Lobster', cursive;
   text-align: center;
   letter-spacing: 0.08em;
   margin: 0;
@@ -107,7 +106,6 @@ body .section-break-time {
 
 body .section-break-time h2 {
   text-align: center;
-  font-family: 'Ibm', cursive;
   color: #FFDAB5;
 }
 
@@ -126,7 +124,6 @@ body .section-break-time .break-time p {
   text-align: center;
   color: #FFDAB5;
   font-size: 18px;
-  font-family: "Lobster";
 }
 
 body .section-pomodoro-time {
@@ -172,7 +169,6 @@ body .section-pomodoro-time {
 
 body .section-pomodoro-time h2 {
   text-align: center;
-  font-family: 'Ibm', cursive;
   color: #FFDAB5;
 }
 
@@ -191,7 +187,6 @@ body .section-pomodoro-time .pomodoro-time p {
   text-align: center;
   color: #FFDAB5;
   font-size: 18px;
-  font-family: "Lobster";
 }
 
 body button {
@@ -268,7 +263,6 @@ body .section-timer h3 {
   font-size: 30px;
   text-align: center;
   margin: 0;
-  font-family: "Ibm";
   color: #FFDAB5;
 }
 
@@ -281,7 +275,6 @@ body .section-timer .timer {
   border-radius: 50%;
   font-size: 80px;
   text-align: center;
-  font-family: 'Lobster', cursive;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
