@@ -23,7 +23,7 @@ class Timer extends React.Component {
                    
             
         };
-        this.url = "http://soundbible.com/grab.php?id=2197&type=mp3";
+        this.url = "http://soundbible.com/grab.php?id=978&type=mp3";
         this.audio = new Audio(this.url);
         
         this.playTimer = this.playTimer.bind(this);
