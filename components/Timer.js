@@ -19,15 +19,28 @@ class Timer extends React.Component {
             timerSecondes: 0,
             intervalId: 0,
             isPlay : false,
-            
+            play : false,
+                   
             
         };
+        this.url = "http://soundbible.com/grab.php?id=2197&type=mp3";
+        this.audio = new Audio(this.url);
+        
         this.playTimer = this.playTimer.bind(this);
         this.stopTimer = this.stopTimer.bind(this);
         this.resetTimer = this.resetTimer.bind(this);
         this.decreaseTimer = this.decreaseTimer.bind(this);
     }
 
+    playSound(){
+        this.setState({
+            play : true,
+        });
+        this.audio.play();
+        
+    }
+    
+    
     playTimer() {
         const intervalId = setInterval(this.decreaseTimer, 1000);
         this.props.onplayStopTimer(true);
@@ -43,9 +56,11 @@ class Timer extends React.Component {
                     if (this.state.isPomodoro) {
                         this.setState({
                             isPomodoro: false,
+                            
                         });
-
+                        
                         this.props.ToggleInterval(this.state.isPomodoro);
+                        this.playSound();
                     } else {
                         this.setState({
                             isPomodoro: true,
@@ -59,8 +74,9 @@ class Timer extends React.Component {
                         timerSecondes: 59,
                     });
                 }
-
+                
                 break;
+                
 
             default:
                 this.setState(par => ({
@@ -90,7 +106,9 @@ class Timer extends React.Component {
             <section className={"section-timer"}>
                 <h3>
                     {" "}
+                    
                     {this.state.isPomodoro === true ? "Pomodoro" : "Break"}{" "}
+                                        
                 </h3>
                 <div className={"timer"}>
                     <p className={"minutes"}> {this.props.timerMinutes} </p>
@@ -101,6 +119,7 @@ class Timer extends React.Component {
                             : this.state.timerSecondes < 10
                             ? `0${this.state.timerSecondes}`
                             : this.state.timerSecondes}
+                                       
                     </p>
                 </div>
                 <div className={"settings-timer"}>

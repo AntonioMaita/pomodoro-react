@@ -107,7 +107,10 @@ body .section-break-time {
 
 body .section-break-time h2 {
   text-align: center;
-  color: #FFDAB5;
+  border: 1px solid;
+  background-color: #CAFFB9;
+  opacity: 85%;
+  color: black;
 }
 
 body .section-break-time .break-time {
@@ -120,10 +123,13 @@ body .section-break-time .break-time {
 }
 
 body .section-break-time .break-time p {
+  border: 1px solid;
+  background-color: #CAFFB9;
+  opacity: 85%;
   width: 20px;
   padding: 0 10px;
   text-align: center;
-  color: #FFDAB5;
+  color: black;
   font-size: 18px;
 }
 
@@ -170,7 +176,9 @@ body .section-pomodoro-time {
 
 body .section-pomodoro-time h2 {
   text-align: center;
-  color: #FFDAB5;
+  background-color: #CAFFB9;
+  opacity: 85%;
+  color: black;
 }
 
 body .section-pomodoro-time .pomodoro-time {
@@ -183,10 +191,13 @@ body .section-pomodoro-time .pomodoro-time {
 }
 
 body .section-pomodoro-time .pomodoro-time p {
+  border: 1px solid;
+  background-color: #CAFFB9;
+  opacity: 85%;
   width: 20px;
   padding: 0 10px;
   text-align: center;
-  color: #FFDAB5;
+  color: black;
   font-size: 18px;
 }
 
@@ -264,12 +275,13 @@ body .section-timer h3 {
   font-size: 30px;
   text-align: center;
   margin: 0;
-  color: #FFDAB5;
+  color: yellow;
 }
 
 body .section-timer .timer {
-  background: radial-gradient(circle, #caffb9 0%, #66a182 75%);
-  border: 3px dotted #AEF78E;
+  background: radial-gradient(circle, #caffb9 25%, #66a182 75%);
+  opacity: 85%;
+  border: 3px solid #AEF78E;
   width: 250px;
   height: 250px;
   margin: 0 auto;

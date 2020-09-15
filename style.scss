@@ -73,18 +73,23 @@ h1{
   animation-duration: 1s;
   h2{
     text-align: center;
-    
-    color:$pink;
+    border: 1px solid;
+    background-color: $turquoise2;
+    opacity: 85%;
+    color:black;
   }
   .break-time{
     display: flex;
     align-items: center;
 
     p{
+      border: 1px solid;
+      background-color: $turquoise2;
+      opacity: 85%;
       width:20px;
       padding:0 10px;
       text-align: center;
-      color:$pink;
+      color:black;
       font-size: 18px;
       
     }
@@ -112,18 +117,22 @@ transition: ease-in;
 
   h2{
     text-align: center;
-      
-      color:$pink;
+    background-color: $turquoise2;
+    opacity: 85%;
+    color:black;
   }
   .pomodoro-time{
     display: flex;
     align-items: center;
   
     p{
+      border: 1px solid;
+      background-color: $turquoise2;
+      opacity: 85%;
       width:20px;
       padding:0 10px;
       text-align: center;
-      color:$pink;
+      color:black;
       font-size: 18px;
       
     }
@@ -178,18 +187,21 @@ animation-duration: 1s;
 
     margin:0 auto;
     h3{
+      
       font-size: 30px;
       text-align: center;
       margin:0;
       
-      color:$pink;
+      color :yellow;
+      
     }
    
    
 .timer{
-  background: radial-gradient(circle, rgba(202,255,185,1) 0%, rgba(102,161,130,1) 75%);
+  background: radial-gradient(circle, rgba(202,255,185,1) 25%, rgba(102,161,130,1) 75%,);
+  opacity: 85%;
 
-  border:3px dotted $pastel;
+  border:3px solid $pastel;
   width:250px;
   height: 250px;
   margin:0 auto;

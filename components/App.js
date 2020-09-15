@@ -81,14 +81,14 @@ class App extends React.Component {
                 <main>
                     <div className={"section-settings"}>
                         <BreakTime
-                            isPlay={this.state.isPlay} // disable button when break is working
+                            isPlay={this.state.isPlay}
                             break={this.state.breakLength}
                             increaseCounter={this.upBreakTime}
                             decreaseCounter={this.downBreakTime}
                         />
 
                         <PomodoroTime
-                            isPlay={this.state.isPlay} // disable button when pomo is working
+                            isPlay={this.state.isPlay}
                             pomodoro={this.state.pomodoroLength}
                             increaseCounter={this.upPomodoroTime}
                             decreaseCounter={this.downPomodoroTime}
