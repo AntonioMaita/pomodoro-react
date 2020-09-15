@@ -18,6 +18,9 @@ class Timer extends React.Component {
             isPomodoro: true,
             timerSecondes: 0,
             intervalId: 0,
+            isPlay : false,
+            
+            
         };
         this.playTimer = this.playTimer.bind(this);
         this.stopTimer = this.stopTimer.bind(this);
@@ -30,6 +33,7 @@ class Timer extends React.Component {
         this.props.onplayStopTimer(true);
         this.setState({
             intervalId,
+            isPlay : true,
         });
     }
     decreaseTimer() {
@@ -68,6 +72,9 @@ class Timer extends React.Component {
     stopTimer() {
         clearInterval(this.state.intervalId);
         this.props.onplayStopTimer(false);
+        this.setState ({
+            isPlay : false,
+        });
     }
     resetTimer() {
         this.stopTimer();
@@ -100,7 +107,9 @@ class Timer extends React.Component {
                     <button
                         className={"play-timer"}
                         type={"button"}
+                         disabled={ this.state.isPlay === true ? "disabled" : ""}
                         onClick={() => this.playTimer()}>
+                        
                         <svg
                             xmlns={"http://www.w3.org/2000/svg"}
                             viewBox={"0 0 20 20"}>
@@ -132,3 +141,4 @@ class Timer extends React.Component {
 }
 
 export default Timer;
+

@@ -4,6 +4,7 @@ body {
   background-image: url("/img/doctorwho.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body h1 {
@@ -275,6 +276,7 @@ body .section-timer .timer {
   border-radius: 50%;
   font-size: 80px;
   text-align: center;
+  font-family: 'cursive';
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
