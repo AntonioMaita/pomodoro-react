@@ -53,6 +53,7 @@ class Timer extends React.Component {
         switch (this.state.timerSecondes) {
             case 0:
                 if (this.props.timerMinutes === 0) {
+                    this.playSound();
                     if (this.state.isPomodoro) {
                         this.setState({
                             isPomodoro: false,
@@ -60,8 +61,9 @@ class Timer extends React.Component {
                         });
                         
                         this.props.ToggleInterval(this.state.isPomodoro);
-                        this.playSound();
+                        
                     } else {
+                        this.playSound();
                         this.setState({
                             isPomodoro: true,
                         });
@@ -69,6 +71,7 @@ class Timer extends React.Component {
                         this.props.ToggleInterval(this.state.isPomodoro);
                     }
                 } else {
+                    
                     this.props.UpdateTimerMinute();
                     this.setState({
                         timerSecondes: 59,
@@ -79,6 +82,7 @@ class Timer extends React.Component {
                 
 
             default:
+                
                 this.setState(par => ({
                     timerSecondes: par.timerSecondes - 1,
                 }));
@@ -135,7 +139,7 @@ class Timer extends React.Component {
                             <path d={"M4 4l12 6-12 6z"} />
                         </svg>
                     </button>
-                    <button type={"button"} onClick={() => this.stopTimer()}>
+                    <button type={"button"} disabled={ this.state.isPlay === false ? "disabled" : ""} onClick={() => this.stopTimer()}>
                         <svg
                             xmlns={"http://www.w3.org/2000/svg"}
                             viewBox={"0 0 20 20"}>
