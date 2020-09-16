@@ -35,7 +35,7 @@ h1{
   .title-pomodoro{
     color:$green; 
   }$primary-color: white;
-  $bg: black;tle-react{
+    $bg: black;tle-react{
     display: block;
     font-size: 30px;
   }
@@ -211,7 +211,7 @@ animation-duration: 1s;
   border-radius: 50%;
   font-size: 80px;
   text-align: center;
-  font-family :'cursive';
+  font-family : 'Franklin Gothic Medium', 'cursive' ;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -219,6 +219,7 @@ animation-duration: 1s;
   display: block;
 }
   .minutes{
+    font-family : 'Franklin Gothic Medium', 'cursive' ;
     text-align: center;
     width:180px;
   }
@@ -227,6 +228,7 @@ animation-duration: 1s;
     width:10%;
   }
   .secondes{
+    font-family : 'Franklin Gothic Medium', 'cursive' ;
     text-align: center;
     width:180px;
   }
